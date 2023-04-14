@@ -152,8 +152,8 @@ latlongs = data.frame(lat =c(38.5816),
 # latlongs = read_csv("./XYZ.csv", col_types = "dd")
 
 # state start and end dates for period of interest
-begin="2022-01-01"
-end="2022-12-31"
+begin="2018-01-01"
+end="2018-12-31"
 
 # load all station ids 
 all_isds  = load_isds(begin, end)
